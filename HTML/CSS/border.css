@@ -1,0 +1,9 @@
+.heading{
+    border: 3px solid red;
+}
+div{
+    border-top: 4px solid green;
+}
+p{
+    border: 3px dotted orange;
+}

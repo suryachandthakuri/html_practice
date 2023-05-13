@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 4px auto;
+}
+
+h1{
+    background: #cdcdcd;
+    text-align: center;
+}
+section.sect-part , section.details{
+border: 2px solid #666666;
+padding: 10px;
+}
+section.sect-part{
+    margin-bottom: 30px;
+}
+h3{
+    text-transform: uppercase;
+    color: #ababab;
+}
+/* margin collapsing it takes maximum or highest pixels */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML Forms</h1> 
+    <form action="samp.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br>
+        <fieldset>
+        <legend><br><br>
+            Gender: <br>
+        <!-- <p>Gender</p> -->
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male" required><br>
+<!-- radio buttons -->
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female" required>
+    </legend>
+    </fieldset>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> 
+          <br>
+          <br>
+          <label for="Payment">Payment:</label>
+          <select name="" id="Payment"><br>
+    <option value="">Select a payment Type </option>
+        <option value="Esewa">ESewa</option>
+          <option value="">Khalti</option>
+          <option value="Credit_Card">Credit_Card</option>
+          <option value="Visa">Visa</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Pay Now">
+     </form>
+</body>
+</html>

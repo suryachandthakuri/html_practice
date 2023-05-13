@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+h1{
+    border-width: 3px;
+    border-color: green;
+    border-style: ridge;
+    border-radius: 20px;
+}
+/* both are same and applicable */
+/* h1{ 
+     border: 3px solid green; 
+/} */
+.para-graph{
+    border: 4px dotted blue;
+}

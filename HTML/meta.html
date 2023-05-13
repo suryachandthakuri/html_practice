@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,Tutorial">
+    <title>Tutorial</title>
+    <style>
+        h2{
+            color: red;
+        }
+        .table_head{
+            color: cyan;
+            background-color: #62b469;
+        }
+        .main_heading{
+            color:green;
+        }
+        .headings{
+            background-color: purple;
+            color: crimson;
+        }
+        .amet{
+            color: cyan;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="headings">
+    <!-- we can use 'id' instead of class in h1 tag. -->
+    <h1 class="main_heading">Heading</h1> 
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+    </div>
+    <p>This is less than symbol &lt</p>
+    <p>Lorem  <strong>lypsum</strong> ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores assumenda quaerat consequuntur, officia tenetur deleniti cupiditate facilis accusamus voluptatibus commodi, delectus vero id minima similique eligendi expedita tempore numquam!</p>
+<hr>
+<!-- strong tag is used to make bold word in a content -->
+<p>Lorem, ipsum dolor sit <span class="amet">amet</span> consectetur adipisicing elit. Maxime a asperiores, nemo atque sed quos rerum porro officia quidem recusandae!</p>
+
+<!-- target is used to open the website in another tab -->
+<a href="https://www.gadgetbytenepal.com" target="_blank">Link is here!</a> <br>
+
+<img src="img/KGF2.jpg" alt="Rocky bhai">
+<table class="table_head" border="2">
+    <thead>
+        <th>First  Name</th>
+        <th>Last  Name</th>
+    </thead>
+
+    <tbody>
+<tr>
+    <td>Surya</td> 
+<td>Chand</td>
+</tr>
+<tr>
+    <td>Surya</td> 
+    <td>Chand</td>
+</tr>
+</tbody>
+</table>
+
+<h2>HTML FORMS</h2>
+<form action="">
+    <label for="username">username</label>
+    <input type="text" name="username" id="username" placeholder="username"> <br> <br>
+    <label for="password">password</label>
+    <input type="password" name="password" id="password" placeholder="password"> 
+    <fieldset>
+        <legend> <p>Gender</p> 
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male"> <br>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female"> <br>
+    </fieldset> <br>
+    <label for="Country">Country</label>
+    <select name="" id="Country">
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+    </select> <br>
+    <p>Description:</p>
+    <textarea name="" id="" cols="80" rows="6">"Describe about yourself"</textarea>
+    <br>
+    <input type="text" value="Sign In"> <br>
+
+</form>
+</body>
+</html>

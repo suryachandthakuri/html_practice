@@ -1,0 +1,18 @@
+article{
+    border: 5px solid green;
+    padding-left: 20px;
+}
+
+.header{
+    border: 2px outset blue;
+    /* padding: 10px; */
+    /* padding: 20px 4px; */
+    border: 5px dotted blue ;
+    padding: 10px 20px ;
+    margin: 10px 20px;
+    text-align: center;
+    background: lightgreen;
+}
+/* padding 10px indicates for top bottom padding */
+/* padding 20px 4px indicates for shortcut of top bottom left right (padding) */
+/* top bottom right left */

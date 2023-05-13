@@ -1,0 +1,29 @@
+ input[type="text"]{ 
+color: red;
+background: #34ecec;
+}
+
+/*input[type^='t']{
+    color: green;
+}
+/* we write a name in form the color changes*/
+
+input[type="password"]{
+    background-color: #98baba;
+}
+
+a[href="https://google.com.in"]{
+    background: #acacac;
+}
+/* the website google.com.in the bg_color chnages  */
+
+
+/* a[href *="google"]{ 
+    color:blue;
+}
+*/
+/* the website which ends with .com becomes blue */
+a[href $= ".com"]{
+    color: green;
+}
+/* the website which ends with .com becomes green */
