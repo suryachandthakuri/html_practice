@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.out{
+    margin: 20px;
+}
+
+.rectangle{
+    border-width: 3px;
+    border-style: solid;
+    border-color:#9a9a9a;
+    border-radius: 20px;
+    background-color: #bae0ec;
+    height: 100px;
+    width: 100px;
+}
+.circle{
+    border-width: 1px;
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    border-color:#a17878;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    left: 103px;
+    top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

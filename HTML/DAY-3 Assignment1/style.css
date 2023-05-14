@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 10px;
+}
+.box{
+height: 100px;
+width: 100px;
+position: absolute;
+display: flex;
+flex-direction: ;
+/* top: 25px;
+left: 25px; */
+}
+.box1{
+    background:#394398;
+    top: 10px;
+    left: 10px;
+}
+.box2{
+    background:#cbc2b0;
+    top: 65px;
+    left: 30px;
+}
+.box3{
+    background:#c7ddd2;
+    top: 90px;
+    left: 90px;
+}
+.box4{
+    background:#ebe5cc;
+    top: 25px;
+    left: 110px;
+}
+.box5{
+    background:#5df672;
+    top: 65px;
+    left: 130px;
+}
